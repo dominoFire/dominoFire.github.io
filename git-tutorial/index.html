@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Fernando Aguilar" />
+  <title>Tecnologías Financieras</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">Tecnologías Financieras</h1>
+  <p class="author">
+Fernando Aguilar
+  </p>
+  <p class="date">Junio 19, 2015</p>
+</div>
+<div class="slide section level1">
+
+<style>
+.figure {
+    text-align: center;
+}
+</style>
+</div>
+<div id="tecnologia-financiera-mucho-antes" class="slide section level1">
+<h1>Tecnologia financiera (Mucho antes)</h1>
+<div class="figure">
+<img src="img/phoenicians.jpg" alt="Fenicios (~ a.C.)" /><p class="caption">Fenicios (~ a.C.)</p>
+</div>
+</div>
+<div id="tecnologia-financiera-antes" class="slide section level1">
+<h1>Tecnologia financiera (Antes)</h1>
+<div class="figure">
+<img src="img/ibm360.jpg" alt="IBM era (50’s - 90’s)" /><p class="caption">IBM era (50’s - 90’s)</p>
+</div>
+</div>
+<div id="tecnologia-financiera-hoy" class="slide section level1">
+<h1>Tecnologia financiera (Hoy)</h1>
+<div class="figure">
+<img src="img/excel.jpg" alt="Excel era (XXI’s)" /><p class="caption">Excel era (XXI’s)</p>
+</div>
+</div>
+<div id="tecnologia-financiera-futuro" class="slide section level1">
+<h1>Tecnologia Financiera (futuro)</h1>
+<ul class="incremental">
+<li>Cloud</li>
+<li>Reproducibilidad en varias plataformas</li>
+<li>Self-service</li>
+</ul>
+</div>
+<div id="git" class="slide section level1">
+<h1>Git</h1>
+<div class="figure">
+<img src="img/git-logo.png" />
+</div>
+<ul class="incremental">
+<li>“Distributed Version Control System”</li>
+<li>¿Por qué Git?
+<ul class="incremental">
+<li>Box: NO hay cliente para Linux</li>
+<li>Dropbox: Poco espacio y no hay tracing de cambios</li>
+<li>SVN: Servidor central</li>
+</ul></li>
+</ul>
+</div>
+<div id="el-origen-de-git" class="slide section level1">
+<h1>El origen de Git</h1>
+<div class="figure">
+<img src="img/torvalds.jpg" alt="Linus Torvalds" /><p class="caption">Linus Torvalds</p>
+</div>
+<ul class="incremental">
+<li>Creado hace 10 años por Linus Torvalds (2005)</li>
+<li>Herramienta para sustituir a SVN</li>
+<li>Windows, Mac OS X, Linux</li>
+</ul>
+</div>
+<div id="git-para-todos" class="slide section level1">
+<h1>Git para todos</h1>
+<ul class="incremental">
+<li>Herramienta basada en comandos (consola)</li>
+<li>Frontends
+<ul class="incremental">
+<li>Rstudio</li>
+<li>eclipse</li>
+<li>SAS</li>
+</ul></li>
+</ul>
+</div>
+<div id="cómo-funciona-git" class="slide section level1">
+<h1>¿Cómo funciona git?</h1>
+<iframe width="100%" height="80%" src="http://www.wei-wang.com/ExplainGitWithD3" frameborder="1" allowfullscreen>
+</iframe>
+<!-- Animacion -->
+<!-- Alguien escribe en su computadora -->
+<!-- Elige los archivos a guardar (stage) -->
+<!-- Hace commit (commit) -->
+<!-- Repite el proceso -->
+<!-- Luego quiere compartir su trabajo -->
+<!-- Tiene tres opciones: 1) on-premise, 2) github, 3) bitbucket -->
+<!-- Hace push al "servidor remoto" -->
+<!-- Mostrar aqui que no es centralizado -->
+<!-- Luego alguien puede leer del "servidor remoto" -->
+<!-- Hace pull del "servidor remoto" -->
+<!-- Recibirá todos los archivos necesarios con TODOS los cambios -->
+<!-- Hace comit y push y el "servidor remoto" guarda todos los cambios -->
+<!-- 
+En caso de que dos personas modifiquen los mismos archivos,
+Git se encarga de combinar los cambios de ambas personas,
+Si no lo logra, se pueden elegir manualmente 
+-->
+</div>
+<div id="instala-git" class="slide section level1">
+<h1>Instala Git</h1>
+<div style="text-align:center; font-size:1.4em">
+<a href="http://git-scm.org/">git-scm.org</a>
+</div>
+</div>
+<div id="git-config" class="slide section level1">
+<h1><code>git config</code></h1>
+<p>Tenemos que configurar git antes de usarlo</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Poner tu nombre:</span>
+<span class="kw">git</span> config --global user.name <span class="st">&quot;Tu nombre&quot;</span>
+
+<span class="co"># Poner tu correo:</span>
+<span class="kw">git</span> config --global user.email <span class="st">&quot;Tu correo&quot;</span>
+
+<span class="co"># Verificar el reslutado:</span>
+<span class="kw">git</span> config --global user.name 
+<span class="kw">git</span> config --global user.email</code></pre>
+</div>
+<div id="git-init" class="slide section level1">
+<h1><code>git init</code></h1>
+<p>Sirve para crear repositorios (repo)</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Crea y entra a un folder</span>
+<span class="kw">mkdir</span> mirepo<span class="kw">;</span> <span class="kw">cd</span> mirepo<span class="kw">;</span>
+
+<span class="co"># Vemos que esto no sea un repo</span>
+<span class="kw">git</span> status
+
+<span class="co"># Inicializa un repo</span>
+<span class="kw">git</span> init
+
+<span class="co"># Verificamos que ya estamos en un repo</span>
+<span class="kw">git</span> status</code></pre>
+</div>
+<div id="git-addrm" class="slide section level1">
+<h1><code>git add/rm</code></h1>
+<p>Agrega o quita archivos del stage</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Escribimos un archivo a-la-hacker-way</span>
+<span class="kw">echo</span> <span class="st">&quot;hola </span><span class="ot">$USER</span><span class="st">&quot;</span> <span class="kw">&gt;</span> hola.txt
+
+<span class="co"># Vemos que exista y lo mostramos en pantalla</span>
+<span class="kw">ls</span> -al hola.txt <span class="kw">&amp;&amp;</span> <span class="kw">cat</span> hola.txt
+
+<span class="co"># Agregamos al stage de git</span>
+<span class="kw">git</span> add hola.txt
+
+<span class="co"># Verificamos el estado del repo</span>
+<span class="kw">git</span> status</code></pre>
+</div>
+<div id="git-commit" class="slide section level1">
+<h1><code>git commit</code></h1>
+<p>Guarda los cambios en stage</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Guardamos los cambios con un mensaje</span>
+<span class="kw">git</span> commit -m <span class="st">&#39;Archivo con mi nombre&#39;</span>
+
+<span class="co"># No deberia haber archivos en stage</span>
+<span class="kw">git</span> status
+
+<span class="co"># Vemos los cambios guardados</span>
+<span class="kw">git</span> log</code></pre>
+</div>
+<div id="git-push" class="slide section level1">
+<h1><code>git push</code></h1>
+<p>Guarda cambios en un “servidor remoto”</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Crea tu cuenta de GitHub <a href="http://github.com/">aqui</a></li>
+<li>Crea el repo <code>tutogit-fintech</code> en github</li>
+<li>Escribe en tu terminal:</li>
+</ol>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Le decimos al repo donde esta el remoto</span>
+<span class="kw">git</span> remote add origin \
+    https://github.org/<span class="kw">&lt;</span>user<span class="kw">&gt;</span>/tutogit-fintech
+
+<span class="co"># Sincroniza con servidor remoto</span>
+<span class="kw">git</span> push -u origin master</code></pre>
+</div>
+<div id="git-clone" class="slide section level1">
+<h1><code>git clone</code></h1>
+<p>Descarga un repo remoto</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Descargamos un estudio </span>
+<span class="co"># de imagenes de Instagram</span>
+<span class="kw">git</span> clone \
+    https://github.org/dominofire/ejemplo.git
+
+<span class="co"># Abrir el archivo .Rproj con Rstudio</span></code></pre>
+</div>
+<div id="bonus-rstudio" class="slide section level1">
+<h1>Bonus: Rstudio</h1>
+<p>Rstudio tiene un panel integrado para trabajar con Git :D</p>
+<div class="figure">
+<img src="img/rstudio.jpg" />
+</div>
+</div>
+<div id="bonus-github.io" class="slide section level1">
+<h1>Bonus: github.io</h1>
+<p>Publica tus HTML’s generados con Rmarkdown en linea.</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Crea un repo en GitHub con el nombre <code>&lt;username&gt;.github.io</code></li>
+<li>Crea un archivo <code>index.html</code> como entrada principal de tu sitio</li>
+<li>Commit, push</li>
+<li><code>http://&lt;username&gt;.github.io</code></li>
+</ol>
+</div>
+</body>
+</html>
